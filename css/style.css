@@ -1,69 +1,225 @@
-	img.displayed {
-			display: block;
-			margin-left: auto;
-			margin-right: auto;
-      border-style: solid;
-
-		}
-
-   li {
-    float: left;
+	body{
+      font-family: cursive, sans-serif;
+      background-color: #000000;
     }
+
+    header{  
+    font-size: 2em;
+    font-weight: bold;
+    }   
+
+   table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 0.5em;
+      margin-top: 0.8em;
+    }
+
+  td, th {
+      border: 0.2em solid #8c8d94;
+      text-align: left;
+      padding: 0.8em;
+    }
+
+   tr:nth-child(even) {
+      background-color: #464954;
+    }
+
+  .section{
+      background-color: #181b29;
+      padding: 1.4em;
+      color: #fff;
+      border-radius: 0.5em;
+      width: 40%;
+      float: left;
+      margin: 1em;
+    }
+
+    .section1 {
+      background-color: #181b29;
+      padding: 1.4em;
+      color: #fff;
+      border-radius: 0.5em;
+      width: 87%;
+      margin: 1.2em;
+    }
+
+    .section2{
+      background-color: #a5b3c0;
+      padding: 1.4em;
+      color:#181b29;
+      border-radius: 0.5em;
+      width: 87%;
+      margin: 1.2em;
+      
+    }
+
+    .link{
+      color:#181b29;
+      line-height: 0.8em;
+
+    }
+  
+
+    mark{
+      color:#b4bbce; 
+      background: rgba(13, 13, 13, 0.1)
+    }
+
+  .container{
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0.5em;
+      background-color: #000000;
+      padding: 0.5em;
+      display: table;
+      text-align: justify;
+      border-radius: 0.5em;
+    }
+
+  .container_text{
+      text-align: justify;
+      margin-left: 1.7em;
+      margin-right: 1.7em;
+      background-color: #000000;
+      padding: 1em;
+      display: table;
+
+      color: #fff;
+      margin-top: 1.4em;
+    } 
+
+  a:link{
+      color:  #a5b3c0;
+      text-decoration: none;
+      cursor: auto;
+    }
+
+  a:hover{
+      color:  #a5b3c0;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+  a:active{
+      color: #a5b3c0;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
+  a:visited{
+      color:#a5b3c0;
+      text-decoration: underline;
+      cursor: auto;
+    }
+
+    img.displayed {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20em;
+    margin-bottom: 2em;
+
+    }
+
+    ul.lista {
+    margin-left: 3em;
+    color: #a4b2be;
+    line-height: 1.4em;
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+    list-style-type: disc;
+    background-color: #181b29;
+
+    }
+
+    ol li {
+    margin-left: 3.7em;
+    color: #a4b2be;
+    line-height: 1.4em;
+    list-style-type: decimal;
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+    }
+
+
+    ol {
+    margin-bottom: 0.5em;
+
+    }
+
 
     h1 {
-      font-size:25px
-      margin-right: 80px;
-      margin-left: 30px;
-
+      font-size: 1.5em;
     }
 
-  h2 {
-      font-family:courier;
-      margin-right: 80px;
-      margin-left: 30px;
+    h2 {
+      font-size: 1.3em;
+    }
+
+  .titulos {
+      margin-right: 8em;
+      margin-left: 1.9em;
+      font-family: cursive, sans-serif;
+      margin-bottom: 0.7em;
+      text-align: left;
+      color: #b4bbce;
+    }
+
+    .titulos1 {
+      margin-right: 8em;
+      margin-left: 1.9em;
+      font-family: cursive, sans-serif;
+      margin-bottom: 0.7em;
+      text-align: left;
+      color: #181b29;
     }
 
     p {
-      margin-right: 80px;
-      margin-left: 30px;
-
-
+      line-height: 1.4em;
+      text-indent: 0.4em;
+      margin-right: 2em;
+      margin-left: 2em;
+      font-size: 1.2em;
+      font-family: cursive, sans-serif;
+      margin-bottom: 1.5em;
       }
 
   header{
-    background-color: #C6A477;
-    padding: 30px;
+    background-color: #2a3346;
+    padding: 1.5em;
     text-align: center;
-    font-size: 20spx;
-    color: #3b3e3b;
-    border-top-style: solid;
-    border-top-width: 15px;
-    border-right-style: solid;
-    border-left-style: solid;
      }
 
-  li a:hover, .dropdown:hover .dropbtn {
-    background-color: #787878;
-    }
+ 
 
   ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #3b3e3b;
+    background-color: #0d0d0d;
     border-style: solid;
+
 }
 
   li a, .dropbtn {
     display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 16px;
+    padding: 1.6em;
     text-decoration: none;
+    float: left;
+
   }
 
-  div {
-  background-color: #ECD59F;
-
+.footer{
+  padding: 1em;
+  width: 98,5%;
+  background-color: #0d0d0d;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5em;
 }
+
